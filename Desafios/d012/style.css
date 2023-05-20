@@ -11,7 +11,7 @@ font-family: 'Sriracha', cursive;*/
 a{
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 a:hover{
@@ -41,18 +41,21 @@ header p{
   padding-bottom: 50px;
 }
 
-.Cordel.Cordel2>p{
-  width: 42vw;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding: 10px;
-}
-
 section.Cordel{
   font-size: 3.5vw;
   font-family: 'Sriracha', cursive;
-  padding: 70px 30px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
   line-height: 2; 
+}
+
+.Cordel.Cordel2>p{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
 }
 
 section#img1{
@@ -61,6 +64,7 @@ section#img1{
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: right center;
 }
 
 section#img2{
@@ -69,18 +73,19 @@ section#img2{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: left center;
+  
 }
 
 footer{
   background-color: black;
-}
-
-footer>p{
   color: white;
   text-align: center;
   padding: 10px;
   font-size: 1.2em;
 }
+
+
 
 
 
